@@ -15,7 +15,7 @@ contact: #联系方式连接等3~5行
 - text: "18352519781"
   href: 'tel:18352519781'
   icon: 'icons/phone.svg'
-- text: "GitHubID"
+- text: "HeYiHao01"
   href: 'https://github.com/HeYiHao01'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
@@ -37,28 +37,32 @@ main: #简历主要内容，
     detail: 计算机学硕
 
 - type: skills
-  # name: "技能"
+  name: "技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
     - Python
     - Java
     - C++
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+  - title: 外语
+    summary: 英语CET6，能流畅阅读英文文档
 
 - type: projects
-  name: Projects
+  name: 项目经历
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
+  - title: 智能仓储可视化平台
+    duration: 2018年5月 - 2020年6月
+    detail: 作为主要开发负责人搭建项目的基本框架，对前后台任务的需求分析以及后台接口的开发。本项目先后获得江苏省大学生计算机设计大赛特等奖、泛珠三角计算机作品大赛二等奖和全国计算机设计大赛二等奖。
+    sub: 开发者
+  - title: 智能仓储可视化平台
+    duration: 2018年5月 - 2020年6月
+    detail: 作为主要开发负责人搭建项目的基本框架，对前后台任务的需求分析以及后台接口的开发。本项目先后获得江苏省大学生计算机设计大赛特等奖、泛珠三角计算机作品大赛二等奖和全国计算机设计大赛二等奖。
+    sub: 开发者
+#   - title: Project Name
+#     summary: Projects' introduction or summary
+#     detail:
+#       md: _data/demo.md
+#     sub: Creator and maintainer.
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
@@ -66,18 +70,19 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '其他'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
+#   - 单行文字
+#   - title: "加粗:"
+#     text: "列表项二"
   - title: "兴趣:"
     items: #单行列表
-    - 睡觉
-    - 吃饭
     - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+    - 羽毛球
+    - 音乐
+    - 电影
+#   - title: 列表
+#     list:
+#     - 第一项
+#     - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
@@ -85,13 +90,13 @@ others: #其他列表显示
 #  - 如果有可以继续添加
 
 #footer 脚注，打印版和web版不同不显示    
-footer: #脚注多组
-  print: #打印版markdown或者html
-  screen:
-  - text: ""
-  #   href: '/'
-  - text: ""
-    href: ""
+# footer: #脚注多组
+#   print: #打印版markdown或者html
+#   screen:
+#   - text: ""
+#   #   href: '/'
+#   - text: ""
+#     href: ""
 
 #页面额外js脚本，如xx统计
 scripts:
