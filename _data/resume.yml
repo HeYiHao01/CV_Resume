@@ -30,7 +30,7 @@ main: #简历主要内容，
   - title: 江苏科技大学
     duration: "2016年9月 - 2020年6月"
     sub: 本科
-    detail: 
+    content: 
       - title: 软件工程专业
         list:
         - 2016-2017学年获得校二等人民奖学金、荣获“校三好学生”称号
@@ -40,7 +40,7 @@ main: #简历主要内容，
   - title: 江南大学
     duration: "2020年9月 - 2023年6月"
     sub: 硕士研究生
-    detail: 
+    content: 
       - title: 计算机学硕
         list:
         - 校二等奖学金
