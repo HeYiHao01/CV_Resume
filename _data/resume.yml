@@ -4,8 +4,8 @@
 title: "个人简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "何益豪"
-jobtitle: "" #可空不显示
-photo: "" #照片可空，不显示
+jobtitle: "算法研发，机器视觉" #可空不显示
+photo: "assets/img/me_1.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
